@@ -1,0 +1,47 @@
+.brand-gradient {
+  background: -webkit-linear-gradient(0deg, #0533dc 0%, #015a17 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-holder,
+.page-header-holder {
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.custom-nav {
+  backdrop-filter: blur(8px);
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
+.navbar-brand img {
+  width: 130px;
+}
+
+.brand-icon img {
+  width: 150px;
+}
+
+.feature-item img {
+  width: 50px;
+  height: auto;
+}
+
+.blur-filter {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.subscribe {
+  background-image: url(img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
