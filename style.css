@@ -1,47 +1,52 @@
-.brand-gradient {
-  background: -webkit-linear-gradient(0deg, #0533dc 0%, #015a17 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+
+
+.navbar-brand img{
+    width: 130px;
+}
+.full-width{
+    width: 100%;
+    height: auto;
+}
+.feature-item img{
+    width: 50px;
+    height: auto;
+}
+.subscribe{
+    background-image: url(img/subscribe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.brand-icon img{
+    width: 150px;
+    height: auto;
+}
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgb(255 255 255 / 30%);
 }
 
-.banner-holder,
-.page-header-holder {
-  background-image: url(img/banner.jpg);
-  background-size: cover;
-  background-position: bottom;
+.navbar-brand img{
+    width: 130px;
 }
-
-.custom-nav {
-  backdrop-filter: blur(8px);
+.full-width{
+    width: 100%;
+    height: auto;
 }
-
-.text-justify {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.6;
+.feature-item img{
+    width: 50px;
+    height: auto;
 }
-
-.navbar-brand img {
-  width: 130px;
+.subscribe{
+    background-image: url(img/subscribe.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
-.brand-icon img {
-  width: 150px;
+.brand-icon img{
+    width: 150px;
+    height: auto;
 }
-
-.feature-item img {
-  width: 50px;
-  height: auto;
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgb(255 255 255 / 30%);
 }
-
-.blur-filter {
-  backdrop-filter: blur(8px);
-  background-color: rgba(255, 255, 255, 0.03);
-}
-
-.subscribe {
-  background-image: url(img/subscribe.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
